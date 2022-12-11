@@ -1,2 +1,0 @@
-# Calcproject
-For Self Study
