@@ -1,0 +1,49 @@
+
+ body {  background-color: #e9d8a6; }  
+h1,h2 {  color: white;text-align: center;}
+p { font-family: verdana;}
+button{ border-radius:5px; border-inline:10px;cursor: pointer; }
+
+/** div { color: white;background-color: 009900;margin: 2px;font-size: 25px; } transform: rotate(20deg); visibility: show/hidden;*/
+
+/** .butClass > button { font-style: green; }  **/
+.pClass{color: lightgray;}
+.formheading{background-color:hotpink;color:white;padding:4px; text-align:center;border-radius:5px; }
+.b{height:30px; width:30px; text-align: center;text-decoration: none;
+  display: inline-block;}
+.screen{float:left; text-align: right;padding:10px;border-radius:0px;width: 168px; margin: -1px 20px 1px 5px;}
+.logErr{ color: red; display:none;}
+#searchUser{ background-color: #adb5bd; border: solid 5px #f27059; }
+
+/** .screen ::before ::after input{ border-style: none; }  **/
+
+
+/**  password change settings **/
+
+#queryID{ background-color:#f7b267; position: absolute;top: 40%; display:none;
+          left: 50%;margin-top: -70px;margin-left: -50px; width: 320px;height: 205px;  }
+#closeWin { border-radius:10px;background-color:#f7b267; padding: 5px; border:20px; float:right; 
+           font-style: italic; transform: translateY(-22px);}
+#loginchng,#loginBT{  border-radius:5px; padding:5px; margin-right:-200px; }
+
+#errPWdFlag { display:none;color:red;float:right; margin: -35px 15px 0;}
+#statusNew{float:center;}  
+
+
+#resArea{ border-style: none;}
+#resAreaRes{ border-style: none;}
+#calCont{border-radius:10px; background-color:#9999; padding:25px;border:1px solid pink;float:left; 
+  margin: 50px 50px 0px; }  
+#butCont{ padding:3px; font-size:15px; border-radius:10px; width: 135px; 
+  height: 128px; transition: width 2s, height 4s; }
+ #butCont:hover{  width: 190px; height: 138px; background-color:#ffcb77; }  
+ #offC{ height:131px;width: 50px;border-radius:10px;background-color:seagreen;margin: -133px 138px 0px;display:grid; }  
+#resScn{ display:grid; }
+
+
+#logCont{ border-radius:10px; background-color:#7777; padding:10px;border:1px solid pink;float:right;margin-top:10px; 
+  margin: 120px 80px 0;}
+
+ #newUserPage{display:none;background-color:#f7b267; position: absolute; margin: 1% 25% 0px;height: 40vh; width:90vh;}  
+#closeWinNew{border-radius:5px;background-color:#f7b267; padding: 5px; border:20px; float:right; 
+           font-style: italic; transform: translateY(-27px);}
