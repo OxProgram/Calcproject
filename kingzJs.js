@@ -279,7 +279,10 @@ function reSearch()
 		usernameRes.setAttribute("style", "color:green;");
 		document.getElementById("searchedUser").innerHTML = "\t"+localStorage.getItem("firstname")+" "+localStorage.getItem("lastname");
 		 }
-	else{ usernameRes.setAttribute("style", "color:red;");usernameRes.innerHTML = "\tinvalid username";	}
+	else{ 	
+		if((usern.trim() === "")||(resSach === "")){ usernameRes.setAttribute("style", "color:red;");usernameRes.innerHTML = "\tinvalid username"; }
+		else{ usernameRes.setAttribute("style", "color:red;");usernameRes.innerHTML = "\tuser does not exist"; }
+			}
 	
 }
 
